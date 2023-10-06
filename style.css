@@ -61,6 +61,18 @@ button.normal{
   transition: 0.2s;
 }
 
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -350,4 +362,9 @@ body {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+  background: #088178;
+  border: 1px solid #088178;
 }
