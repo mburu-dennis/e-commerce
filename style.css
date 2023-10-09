@@ -293,6 +293,7 @@ body {
   right: 10px;
 }
 
+/* Banner Section */
 #banner{
   display: flex;
   flex-direction: column;
@@ -326,6 +327,7 @@ body {
   color: #fff;
 }
 
+/* Small Banner Section */
 #sm-banner{
   display: flex;
   justify-content: space-between;
