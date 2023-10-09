@@ -414,6 +414,7 @@ body {
   font-size: 15px;
 }
 
+/* Newsletter Section */
 #newsletter{
   display: flex;
   justify-content: space-between;
@@ -466,6 +467,7 @@ body {
   border-bottom-left-radius: 0;
 }
 
+/* Footer Section */
 #footer{
   display: flex;
   flex-wrap: wrap;
