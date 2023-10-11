@@ -452,7 +452,7 @@ body {
 }
 
 #newsletter input{
-  height: 3.125rem;
+  height: 3.125rem; /* Set the height for the input */
   padding: 0 1.25em;
   font-size: 14px;
   width: 100%;
@@ -467,6 +467,7 @@ body {
   background-color: #088178;
   color: #fff;
   white-space: nowrap;
+  height: 3.125rem; /* Set the height for the button to match the input */
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -477,9 +478,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 80px;
+  align-items: center; /* Align items on the same horizontal line */
 }
 
-#footer .col{
+#footer .col {
+  flex: 1; /* Make all columns have equal width and be on the same line */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
