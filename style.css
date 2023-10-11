@@ -472,69 +472,69 @@ body {
   border-bottom-left-radius: 0;
 }
 
-/* Footer Section */
-#footer{
+/* Footer Section*/
+footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 80px;
-  align-items: center; /* Align items on the same horizontal line */
+  /*align-items: center;  Align items on the same horizontal line */
 }
 
-#footer .col {
-  flex: 1; /* Make all columns have equal width and be on the same line */
+footer .col{
+  /*flex: 1;  Make all columns have equal width and be on the same line */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
 
-#footer .logo{
+footer .logo{
   margin-bottom: 30px;
 }
 
-#footer h4{
+footer h4{
   font-size: 14px;
   padding-bottom: 20px;
 }
 
-#footer p{
+footer p{
   font-size: 13px;
   margin: 0 0 8px 0;
 }
 
-#footer a{
+footer a{
   font-size: 13px;
   text-decoration: none;
   color: #222;
   margin-bottom: 10px;
 }
 
-#footer .follow{
+footer .follow{
   margin-top: 20px;
 }
 
-#footer .follow i{
+footer .follow i{
   color: #465b52;
   padding-right: 4px;
   cursor: pointer;
 }
 
-#footer .install .row img{
+footer .install .row img{
   border: 1px solid #088178;
   border-radius: 6px;
 }
 
-#footer .install img{
+footer .install img{
   margin: 10px 0 15px 0;
 }
 
-#footer .follow i:hover,
+footer .follow i:hover,
 footer a:hover{
   color: #088178;
 }
 
-#footer .copyright{
+footer .copyright{
   width: 100%;
   text-align: center;
 }
