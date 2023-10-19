@@ -647,6 +647,75 @@ footer .copyright {
 }
 
 /* Blog Page */
+#page-header.blog-header {
+  background-image: url("img/banner/b19.jpg");
+}
+
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative; /* Enables position: absolute; to be used on its child elements */
+  padding-bottom: 90px;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;   /* Removes the default underline decoration on the links */
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+  position: relative;      /* Sets the position property to relative for positioning purposes */
+  transition: 0.3s;
+}
+
+
+#blog .blog-details a::after {
+  content: "";               /* Specifies content for the pseudo-element (in this case, an empty string) */
+  width: 50px;               /* Sets the width of the pseudo-element to 50 pixels */
+  height: 1px;               /* Sets the height of the pseudo-element to 1 pixel */
+  background-color: #000;
+  position: absolute;        /* Positions the pseudo-element absolutely relative to its containing element */
+  top: 4px;                  /* Sets the top position of the pseudo-element to 4 pixels from the top of the parent element */
+  right: -60px;              /* Sets the right position of the pseudo-element to -60 pixels from the right of the parent element */
+}
+
+#blog .blog-details a:hover {
+  color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+  background-color: #088178;
+}
+
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -9; /* Places h1 behind the img */
+}
+
 
 /* About Page */
 
@@ -658,7 +727,7 @@ footer .copyright {
 @media (max-width:799px) {
   .section-p1 {
     padding: 40px 40px;
-  }
+  } 
   #navbar {
     display: flex;
     flex-direction: column;
