@@ -40,7 +40,7 @@
 
 <section id="product1" class="section-p1">
     <div class="pro-container">
-        <div class="pro" onclick="window.location.href='sproduct.html';"> <!-- link shop to sproduct.html -->
+        <div class="pro">
             <img src="img/products/f1.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -384,16 +384,18 @@
     </div>
 </footer>
 
-<!-- <script>
-    // Get the element by its ID
-const pro = document.getElementById("pro");
+<script>
+    // Get all the elements with the class pro
+    const proElements = document.querySelectorAll(".pro");
 
-// Add a click event listener
-pro.addEventListener("click", function() {
-    // Redirect to sproduct.html
-    window.location.href = "sproduct.html";
-});
-</script> -->
+    // Add a click event listener to each 'pro' element
+    proElements.forEach(function(element) {
+        element.addEventListener("click", function() {
+            //Redirect to sproducts.html
+            window.location.href = "sproduct.html";
+        });
+    });
+</script>
 
 
     <script src="script.js"></script>
