@@ -718,8 +718,14 @@ footer .copyright {
 
 
 /* About Page */
+#page-header.about-header {
+  background-image: url("img/about/banner.png");
+}
 
 /* Contact Page */
+
+
+/* Cart Page */
 
 
 /* Start Media Query */
